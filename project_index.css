@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "CroissantOne-Regular.ttf";
+    src: url(""); 
+}
+/* Project didnt have this font file to download. so this is just empty code. */
+
 html {
     font-size: 18px;
   }
@@ -26,6 +32,7 @@ html {
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
     font-family: Verdana, sans-serif;
     font-size: .77rem;
+    font-weight: bold;
   }
   
   .header .logo {
@@ -72,11 +79,15 @@ html {
     border-bottom: 4px solid #ffb78c;
     font-size: 1.44rem;
     letter-spacing: 2px;
+    font-weight: 500;
+    font-family: "Work Sans", "Arial", sans-serif;
   }
   
   .banner h1 {
     padding-top: 1.11rem;
     font-size: 11rem;
+    font-weight: 900;
+    font-family: "Abril Fatface", sans-serif;
   }
   
   @media only screen and (max-width: 750px) {
@@ -105,6 +116,8 @@ html {
     padding: 0 25% 4rem 25%;
     background-color: rgb(254, 231, 218);
     color: #4a4a4a;
+    line-height: 1.4;
+    font-family: "Work Sans", serif;
   }
   
   .photo {
@@ -113,6 +126,7 @@ html {
     border-radius: 5px;
     margin: 0 auto 4.44rem auto;
     background-color: white;
+    font-family: "Merriweather", serif;
   }
   
   .photo .image-container {
@@ -145,6 +159,7 @@ html {
     font-family: "Abril Fatface", serif;
     font-size: 7.44rem;
     color: #10b0d8;
+    line-height: 0.87;
   }
   
   .quote {
@@ -156,6 +171,7 @@ html {
     text-align: center;
     font-size: 3.55rem;
     font-weight: 800;
+    line-height: 1.2;
   }
   
   @media only screen and (max-width: 680px) {
@@ -171,6 +187,8 @@ html {
     align-items: center;
     padding: 0 1%;
     background-color: #212121;
+    line-height: 1.5;
+    font-family: "Crouissant-One", "Merriweather", serif;
   }
   
   footer .image-container {
